@@ -1,0 +1,142 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Background Split Design */
+body {
+    background: linear-gradient(to left , rgb(202, 201, 201) 30%, white 30%);
+    height: 100vh;
+}
+
+/* Navigation Bar Styling */
+nav {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+}
+
+/* Navigation Items */
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+/* Logo Style */
+.logo {
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Navigation List */
+.ull {
+    margin-left: 10%;
+}
+
+/* Search Input */
+#input {
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 5px 65px;
+    border: 1px solid black;
+    border-radius: 50pc;
+}
+
+/* Cart Button Style */
+.cart-button span {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+/* User Icon */
+.userimg {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+/* Main Section Layout */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+/* Left Section */
+.left {
+    flex-basis: 50vw;
+}
+
+/* Right Section */
+.right {
+    flex-basis: 50vw;
+}
+
+/* Subheading */
+.seven {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 40%;
+    align-self: center;
+}
+
+/* Main Heading */
+.h1 {
+    margin-left: 40%;
+    font-size: 3.5rem;
+}
+
+/* Product Image */
+.image {
+    height: 800px;
+}
+
+/* Description Text */
+.p1 {
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+/* Shop Now Button */
+.sn {
+    margin: 40px 40%;
+    padding: 18px 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+/* Link Color */
+a {
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(216, 141, 3);
+    display: flex;
+}
+
+/* Footer Text */
+footer div h2,
+footer div p {
+    margin-left: 250px;
+}
+footer div h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
